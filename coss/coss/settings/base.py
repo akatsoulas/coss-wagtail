@@ -71,6 +71,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'coss.urls'
+ALLOWED_HOSTS = ['localhost', 'site1.localhost', '127.0.0.1']
 
 TEMPLATES = [
     {
