@@ -29,6 +29,7 @@ INSTALLED_APPS = [
     'home',
     'search',
     'blog',
+    'common',
 
     'wagtail.wagtailforms',
     'wagtail.wagtailredirects',
@@ -41,6 +42,8 @@ INSTALLED_APPS = [
     'wagtail.wagtailsearch',
     'wagtail.wagtailadmin',
     'wagtail.wagtailcore',
+    # editable settings in admin
+    'wagtail.contrib.settings',
 
     'modelcluster',
     'taggit',
